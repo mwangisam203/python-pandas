@@ -44,4 +44,17 @@ data = {"Name": ["Stacy", "Glenn", "Moris", "Juliet", "Collins"],
         "Age": [19, 32, 28, 25, 21]
         }
 df = pd.DataFrame(data, index=["player1", "player2", "player3", "player4", "player5"])
+
+#Adding a new column
+df["Position"] = ["striker", "goalie", "midfielder", "defender", "winger"]
+
+#Adding a new row
+
+new_row = pd.DataFrame([{"Name": "Henry", "Age": 23, "Position": "Striker"}], index=["player6"])
+
+df = pd.concat([df, new_row])
+
 print(df)
+
+# print(df.loc["player3"])  #=> location by label
+# print(df.iloc[3])
