@@ -56,5 +56,5 @@ df = pd.concat([df, new_row])
 
 print(df)
 
-# print(df.loc["player3"])  #=> location by label
-# print(df.iloc[3])
+print(df.loc["player3"])  #=> location by label
+print(df.iloc[[3, 4]])
