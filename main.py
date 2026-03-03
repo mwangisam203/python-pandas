@@ -36,3 +36,12 @@ print("\nDays >= 2000 calories:\n", series[series >= 2000])
 
 # Boolean filtering: show days with calories <= 2000
 print("\nDays <= 2000 calories:\n", series[series <= 2000])
+
+
+
+# DataFrame => Tabular structures with rows and columns (2D)
+data = {"Name": ["Stacy", "Glenn", "Moris", "Juliet", "Collins"],
+        "Age": [19, 32, 28, 25, 21]
+        }
+df = pd.DataFrame(data, index=["player1", "player2", "player3", "player4", "player5"])
+print(df)
