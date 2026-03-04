@@ -1,0 +1,60 @@
+# -----------------------
+# Virtual Environment
+# -----------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------
+# Python Cache Files
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# -----------------------
+# Jupyter Notebook Checkpoints
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# VS Code
+# -----------------------
+.vscode/
+
+# -----------------------
+# macOS
+# -----------------------
+.DS_Store
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# Environment Variables
+# -----------------------
+.env
+
+# -----------------------
+# Data Files (Optional - if you don't want to upload datasets)
+# -----------------------
+*.csv
+*.xlsx
+
+# -----------------------
+# Matplotlib cache
+# -----------------------
+.matplotlib/
+
+# -----------------------
+# Build / Distribution
+# -----------------------
+build/
+dist/
+*.egg-info/
